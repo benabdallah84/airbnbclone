@@ -7,7 +7,7 @@ interface IParams{
 }
 
 export async function POST(
-    response: Response,
+    response: Request,
     {params}: {params: IParams}
 ){
     const currentUser = await getCurrentUser()
