@@ -1,0 +1,33 @@
+npx create-next-app --typescript
+//install tailwindcss
+npm install -D tailwindcss postcss autoprefixer
+npm tailwindcss init -p
+//configure tailwindcss.config
+//configure app/globals.css
+npm install react-icons
+//for registration
+npm install zustand
+npm install axios
+npm install react-hook-form
+//toast
+npm install react-hot-toast
+//backend tools
+npm i -D prisma
+npx prisma init
+//after writing the schema exec this command
+npx prisma db push
+//installing next-auth
+npm i next-auth @prisma/client @next-auth/prisma-adapter
+npm i bcrypt
+npm i -D @types/bcrypt
+//google auth url: http://localhost:3000/api/auth/callback/google
+npm install query-string
+npm install world-countries
+npm install react-select
+npm install leaflet
+npm install -D @types/leaflet
+npm install react-leaflet
+npm install date-fns
+npm install react-date-range
+npm install -D @types/react-date-range
+npm install react-spinners
