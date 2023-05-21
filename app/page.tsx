@@ -9,7 +9,7 @@ import getCurrentUser from './actions/getCurrentUser'
 interface HomePorps {
   searchParams: IListingParams
 }
-
+export const dynamic = 'force-dynamic'
 const Home = async ({searchParams}:HomePorps) => {
   const currentUser = await getCurrentUser()
   const Listings = await getListings(searchParams)
