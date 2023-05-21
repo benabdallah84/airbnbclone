@@ -6,9 +6,9 @@ import Button from '../button'
 interface ListingReservationProps{
     price: number
     totalPrice: number
-    onChangeDate?: (value: Range) => void
+    onChangeDate: (value: Range) => void
     dateRange: Range
-    onSubmit?: (event: React.MouseEvent<HTMLButtonElement>) => void
+    onSubmit: () => void
     disabled?: boolean
     disabledDates: Date[]
 }
